@@ -1,1 +1,18 @@
-script.sh
+# --- Ignore all executables ---
+
+# Extensionless files (e.g. `g++ main.cpp -o main` on Linux/macOS):
+# ignore everything, then re-include directories and files with an extension
+*
+!*/
+!*.*
+
+# Keep common extensionless files that should be tracked
+!Makefile
+!LICENSE
+
+# Compiled executables and build artifacts
+a.out
+*.out
+*.exe
+*.o
+*.obj
