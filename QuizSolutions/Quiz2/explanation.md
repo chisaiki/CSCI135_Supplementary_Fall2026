@@ -99,7 +99,6 @@ Tells the operating system the program finished successfully.
 | Calculating `total` **before** the `cin` lines | `total` is computed from empty variables, so it prints garbage or `0` |
 | `cin << furniture` (wrong arrow direction) | Compile error. `cin` uses `>>` |
 | Forgetting the prompt `cout` | The program runs, but the user sees a blank screen and doesn't know what to enter |
-| Forgetting `#include <iomanip>` | Compile error: `setprecision` was not declared |
 | Putting `"total"` in quotes | Prints the word `total` instead of the number |
 
 
