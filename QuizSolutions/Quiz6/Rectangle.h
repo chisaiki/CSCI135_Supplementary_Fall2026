@@ -1,0 +1,18 @@
+// Rectangle.h
+#ifndef RECTANGLE_H
+#define RECTANGLE_H
+
+class Rectangle
+{
+    private:
+        double length;
+        double width;
+
+    public:
+        bool   setLength(double);
+        bool   setWidth(double);
+        double getLength() const;
+        double getWidth()  const;
+        double calcArea()  const;
+};
+#endif
